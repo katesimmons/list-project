@@ -17,7 +17,6 @@ ul {
 
 li {
 	line-height: 50px;
-	border: solid 1px black;
 	padding-left: 10px;
 	padding-right: 10px;
 	display: block;
@@ -45,7 +44,6 @@ h2 {
 
 }
 
-
 .container {
 	background-color: white;
 	width: 350px;
@@ -55,13 +53,15 @@ h2 {
 	height: 675px;
 }
 
-.to-do
+.list-items
 
-li .completed {
-	background-color: gray;
+.to-do {
+	border: solid 2px black;
 }
 
-.list-items
+.completed {
+	color: gray;
+	border: solid 1px gray;
 
 .controls 
 
