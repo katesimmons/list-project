@@ -65,6 +65,7 @@ h2 {
   width: 24px;
   height: 24px;
   background: url('../images/Delete_Button_24.png');
+  background-repeat: no-repeat;
 }
 
 .checkmark {
@@ -73,7 +74,9 @@ h2 {
   margin-top: 12px;
   width: 24px;
   height: 24px;
-  background: url('../images/Checkmark_24.png');	
+  background: url('../images/Checkmark_24.png');
+  background-repeat: no-repeat;
+	
 }
 
 .checkmark-undo {
@@ -83,6 +86,7 @@ h2 {
   width: 24px;
   height: 24px;
   background: url('../images/Checkmark_Undo_24.png');	
+  background-repeat: no-repeat;
 }
 
 .completed {
