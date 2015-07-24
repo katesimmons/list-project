@@ -42,7 +42,6 @@ h2 {
 	border: transparent 0;
 	border-radius: 5px;
 	color: white;
-
 }
 
 .container {
@@ -51,7 +50,6 @@ h2 {
 	margin-left: 65%;
 	padding: 20px;
 	text-align: center;
-	height: 675px;
 }
 
 .list-items
@@ -60,10 +58,38 @@ h2 {
 	border: solid 2px black;
 }
 
+.delete {
+  cursor: pointer;
+  float: right;
+  margin-top: 12px;
+  width: 24px;
+  height: 24px;
+  background: url('../images/Delete_Button_24.png');
+}
+
+.checkmark {
+  cursor: pointer;
+  float: left;
+  margin-top: 12px;
+  width: 24px;
+  height: 24px;
+  background: url('../images/Checkmark_24.png');	
+}
+
+.checkmark-undo {
+  cursor: pointer;
+  float: left;
+  margin-top: 12px;
+  width: 24px;
+  height: 24px;
+  background: url('../images/Checkmark_Undo_24.png');	
+}
+
 .completed {
 	color: gray;
 	border: solid 1px gray;
+}
 
-.controls 
-
-
+.credits {
+	font-size: .75em;
+}

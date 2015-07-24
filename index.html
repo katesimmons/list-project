@@ -15,8 +15,8 @@
 		<h2>To Do</h2>
 			<div class="list-items"> <!--may not need a class for list-items"-->
 				<ul>
-				    <li class="to-do">list item 1</li>
-				    <li class="to-do">list item 2</li>
+				    <li class="to-do"><div class="checkmark"></div>list item 1<div class="delete"></div></li>
+				    <li class="to-do"><div class="checkmark"></div>list item 2<div class="delete"></div></li>
 				</ul>
 			</div>
 	</section>
@@ -24,7 +24,9 @@
 		<h2>Completed</h2>
 		    <div class="list-items">
 		         <ul>
-		         	<li class="completed">list item 3</li>
+		         	<li class="completed"><div class="checkmark-undo"></div>
+		         	list item 3 <div class="delete"></div>
+		         	</li>
 		         </ul>
 		    </div>
 	</section>
@@ -32,9 +34,11 @@
 		<div class="controls">
 		    <p>Add items to your list</p>
 		    <input type="text" id="">
-		    <button id="">Add Item</button>
+		    <button id="button">Add Item</button>
 		</div>
     </section>
+    	<p class="credits">Delete icon by <a href="http://www.flaticon.com/authors/pavel-kozlov" target="_blank">Pavel Kozlov</a>. Checkmark icon by <a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik</a></p>
 	</div>
+
 </body>
 </html>
