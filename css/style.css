@@ -1,0 +1,68 @@
+body {
+	background-image: url('../images/list-photo.jpeg');
+	height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+
+}
+
+li {
+	line-height: 50px;
+	border: solid 1px black;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+}
+
+h2 {
+}
+
+.controls input,
+.controls button {
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 10px;
+}
+
+.controls p {
+	margin-bottom: 0;
+}
+
+.controls button {
+	background-color: red;
+	border: transparent 0;
+	border-radius: 5px;
+	color: white;
+
+}
+
+
+.container {
+	background-color: white;
+	width: 350px;
+	margin-left: 65%;
+	padding: 20px;
+	text-align: center;
+	height: 675px;
+}
+
+.to-do
+
+li .completed {
+	background-color: gray;
+}
+
+.list-items
+
+.controls 
+
+
