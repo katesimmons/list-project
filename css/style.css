@@ -73,6 +73,17 @@ li .delete {
 	cursor: pointer;
 }
 
+.to-do button,
+.done button {
+	background-color: red;
+	border: transparent 0;
+	border-radius: 5px;
+	font-size: .75em;
+	line-height: 2em;
+	color: white;
+	margin-left: 10px;
+}
+
 /*
 .checkmark {
   float: left;
